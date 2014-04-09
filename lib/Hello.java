@@ -8,7 +8,7 @@ public class Hello
     Scanner in = new Scanner(System.in);
     String my_name = in.nextLine();
 
-    Greeter greeter = new Greeter(name);
+    Greeter greeter = new Greeter(my_name);
     System.out.println(greeter.greet());
   }
 }
